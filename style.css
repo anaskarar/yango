@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: YS Text, Helvetica, Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    background-color: #f00;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+   margin:  8px 10px ;
+}
+
+.logo ul {
+    display: flex;
+    margin: 8px 10px;
+}
+
+.logo li {
+    display: flex;
+    list-style-type:none;
+    
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+   padding: 0px 8px;
+}
+
+.logo a:hover {
+    color:#f0f0f0 ;
+}
+
+.lang {
+    display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.lang p{
+    display: flex;
+    color: white;
+padding-left: 10px;
+}
+
+.hero {
+    background-image: url(../css/logo/orig.jpeg);
+   background-size: contain;
+   background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+}
+
+h1 {
+    color: white;
+    padding-top: 7%;
+    margin-left: 10px;
+}
+
+p {
+    color: white;
+   
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #FF0000;
+    font-size: 1rem;
+    border: 2px solid #FF0000;
+    border-radius: 10rem;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn2 {
+    background-color: white;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 10rem;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn:hover {
+  background-color: #f00;
+}
+
+.btn2:hover {
+    background-color: #f0f0f0;
+}
+
+.scan {
+    display: flex;
+    align-items: center; 
+   
+    background-color: #FF0000;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    border: #FF0000;
+    border-radius: 1rem;
+   height: 105px;
+   padding: 52px;
+   margin-right: 4%;
+}
+h2 {
+   color: white;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+img {
+border: none;
+border-radius: 0.5rem;
+background: transparent;
+}
+
+.comfort {
+   margin-bottom: 2%;
+    font-family: Arial, Helvetica, serif;
+   font-size: xx-large;
+}
+
+.ride {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: 100%;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 75%;
+}
+
+.delivery {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: ;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 75%;
+
+}
+
+#car {
+    margin-left: 80%;
+}
+
+#truck {
+    margin-left: 80%;
+}
+
+.connect {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.pro {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: 100%;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 75%;
+    padding: 20px;
+}
+
+.parter {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: 100%;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 75%;
+    padding: 20px;
+}
+
+.better {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-family: Arial, Helvetica, serif ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2rem;
+font-weight: bold;
+}
+
+#instructions {
+    display: flex;
+}
+
+.street {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: 100%;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding: 20px;
+    padding-right: 7%;
+}
+
+.transparent {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: 100%;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;  
+    padding: 25px;
+    padding-right: 7%;
+}
+
+.location {
+    border: none;
+    background-color:#f0f0f0;
+    border-radius: 0.9rem;
+    height: 100%;
+    padding: 5px 8%;
+    font-size:small;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding: 25px;
+    padding-right: 7%;
+}
+h5 {
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.safe {
+    display: flex;
+}
+
+.safering {
+    margin-left: 3%;
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.sharing {
+    margin-left: -15%;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.loved {
+    margin-left:-11.5% ;
+    margin-top: 13%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 0.9rem;
+    font-style: none;
+    padding: 0px 5px;
+}
+
+.sos {
+    margin-right: -38%;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.directly {
+    margin-left: 27%;
+     margin-top: 13%; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 0.9rem;
+    font-style: none;
+    padding: 0px 20px;
+}
+
+.online {
+    background-color: #FF0000;
+}
